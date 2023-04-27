@@ -21,7 +21,7 @@ params:
     sidebar:
         compact: false
         emoji:
-        subtitle:
+        subtitle: And of what it may be
         avatar:
             enabled: true
             local: true
@@ -112,22 +112,28 @@ params:
             id:
 
     widgets:
-        homepage: []
-        page: []
+        page:
+            - type: toc
 
     opengraph:
-        twitter:
+        # twitter:
+        #     # Your Twitter username
+        #     site:
+
+        #     # Available values: summary, summary_large_image
+        #     card: summary_large_image
+        github:
             # Your Twitter username
-            site:
+            site: starship006
 
             # Available values: summary, summary_large_image
-            card: summary_large_image
+            card: summary
 
     defaultImage:
         opengraph:
             enabled: false
             local: false
-            src:
+            src: img/letter_C_red-512.webp
 
     colorScheme:
         # Display toggle
